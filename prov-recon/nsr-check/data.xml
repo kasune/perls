@@ -1,0 +1,15 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:siemens:names:prov:gw:SPML:2:0">
+   <soapenv:Header/>
+   <soapenv:Body>
+	<spml:searchRequest execution="synchronous" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0" xmlns:nsr="urn:siemens:names:prov:gw:HLR_EPS_NSR:5:0">
+                <version>HLR_EPS_NSR_v50</version>
+                  <base>
+                        <objectclass>PsRoamAreaMmeAddr</objectclass>
+                        <!--<alias name="identifier" value="IMS"/>-->
+                  </base>
+				  <!-- <returnAttribute>identifier</returnAttribute>
+      <returnAttribute>isAreaPos</returnAttribute>
+      <returnAttribute>mmeAddress</returnAttribute> -->
+  </spml:searchRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

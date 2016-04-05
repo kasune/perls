@@ -1,0 +1,11 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://at.siemens.inum6/soap">
+   <soapenv:Header/>
+   <soapenv:Body>
+      <soap:displayNaptrs>
+         <login>saam</login>
+         <password>Siemens#1</password>
+         <e164number>+6586855836</e164number>
+         <ENUMSuffix>e164.arpa</ENUMSuffix>
+      </soap:displayNaptrs>
+   </soapenv:Body>
+</soapenv:Envelope>

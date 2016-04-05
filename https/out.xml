@@ -1,0 +1,8 @@
+  <soapenv:Body name="soapenv:Fault" faultstring="(403)Forbidden">
+    <detail name="ns2:hostname" xmlns:ns2="http://xml.apache.org/axis/">nds1pgwt01</detail>
+    <detail name="ns3:HttpErrorCode" xmlns:ns3="http://xml.apache.org/axis/">403</detail>
+    <faultcode xmlns:ns1="http://xml.apache.org/axis/">ns1:HTTP</faultcode>
+  </soapenv:Body>
+  <xmlns:soapenv>http://schemas.xmlsoap.org/soap/envelope/</xmlns:soapenv>
+  <xmlns:xsd>http://www.w3.org/2001/XMLSchema</xmlns:xsd>
+  <xmlns:xsi>http://www.w3.org/2001/XMLSchema-instance</xmlns:xsi>

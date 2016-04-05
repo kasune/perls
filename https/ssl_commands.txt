@@ -1,0 +1,9 @@
+view jkcs details
+C:\Users\emkasun\Desktop>keytool -v -list -keystore azuba.jks
+Enter keystore password:provgw
+
+C:\Users\emkasun\Desktop>keytool -exportcert -rfc -alias 1 -file mycert.cer -keystore azuba.jks -storepass provgw
+Certificate stored in file <mycert.cer>
+
+convert jkcs tp pkcs12
+keytool -importkeystore -srckeystore azuba.jks -destkeystore KEYSTORE2.p12 -srcstoretype JKS -deststoretype PKCS12 -srcstorepass provgw -deststorepass provgw -srcalias 1 -destalias 1 -srckeypass provgw -destkeypass provgw -noprompt

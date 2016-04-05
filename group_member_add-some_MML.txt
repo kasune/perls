@@ -1,0 +1,61 @@
+ZMNC:IMSI=525037800000000:PDPTYPE=F121,PDPADDR=AC199086,VPLMN=N,APN="SPPG",QOSP=1
+
+ZMNC:IMSI=525037800000000:APN="SUNSURF",QOSP=40;
+ZMNC:IMSI=525037800000000:APN="MIWORLD",QOSP=40;
+ZMNM:IMSI=525037800000000:NWACC=BOTH,GPRSSAM=OWN;
+
+ZMSS:IMSI=525037800000000:CFU=6586880882:OUT=N;  ZMSS:IMSI=525037800000000,BSERV=T21:CFU=6586880882:OUT=N; 
+
+ZMAC:IMSI=525037800000000:KI=48EE7A9B60B87228408CE9140BC2E8D9,UV=1:;
+ZMAC:IMSI=525034747888891:KI=E052DB1702E638A5699978BB057DF41F,UV=1:;
+
+ZMIC:IMSI=525037800000000,MSISDN=6588440000:CAT=OR,ROU=N,SAM=OWN,PBS=T11;
+ZMBC:IMSI=525037800000000,BSERV=T21;
+ZMIM:IMSI=525037800000000:SAM=INT,RP=N:OUT=N;
+ZMBC:IMSI=525037800000000,BSERV=T22;
+ZMSD:IMSI=525037800000000:CW=Y,HOLD=Y,MPTY=Y,OCCF=CFB&CFNR&CFNA,CFU=Y,CFB=Y,CFNA=Y,CFNR=Y:OUT=N;
+ZMSS:IMSI=525037800000000,BSERV=T11:OCCF=651381:OUT=N;
+ZMSS:IMSI=525037800000000,BSERV=T11:CW=A:OUT=N;
+ZMBC:IMSI=525037800000000,BSERV=B17;
+ZMNC:IMSI=525037800000000:APN="SUNSURF",QOSP=40;
+ZMNC:IMSI=525037800000000:APN="MIWORLD",QOSP=40;
+ZMNM:IMSI=525037800000000:NWACC=BOTH,GPRSSAM=OWN;
+ZMIO:IMSI=525037800000000;
+
+ZMAC:IMSI=525034747888890:KI=E052DB1702E638A5699978BB057DF41F,UV=1:;
+
+ZMIC:IMSI=525034747888890,MSISDN=6588888890:CAT=OR,ROU=N,SAM=OWN,PBS=T11;
+ZMBC:IMSI=525034747888890,BSERV=T21;
+ZMIM:IMSI=525034747888890:SAM=INT,RP=N:OUT=N;
+ZMBC:IMSI=525034747888890,BSERV=T22;
+ZMSD:IMSI=525034747888890:CW=Y,HOLD=Y,MPTY=Y,OCCF=CFB&CFNR&CFNA,CFU=Y,CFB=Y,CFNA=Y,CFNR=Y:OUT=N;
+ZMSS:IMSI=525034747888890,BSERV=T11:OCCF=651381:OUT=N;
+ZMSS:IMSI=525034747888890,BSERV=T11:CW=A:OUT=N;
+ZMBC:IMSI=525034747888890,BSERV=B17;
+ZMNC:IMSI=525034747888890:APN="SUNSURF",QOSP=40;
+ZMNC:IMSI=525034747888890:APN="MIWORLD",QOSP=40;
+ZMNM:IMSI=525034747888890:NWACC=BOTH,GPRSSAM=OWN;
+ZMIO:IMSI=525034747888890;
+
+ZMIG:GIMSI=525034747888888,GMSISDN=6586918888,HUNT=S,GUSR=MUL,HUNTDC=S:MBRS=6586918889&6586918890:;
+
+<spml:addRequest xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0" xmlns:subscriber="urn:siemens:names:prov:gw:SUBSCRIBER:1:0" execution="synchronous" language="en_us" newGenerated="true" returnResultingObject="full">
+    <version>SUBSCRIBER_v10</version>
+        <object xmlns:gw="urn:siemens:names:prov:gw:SPML:2:0" xsi:type="subscriber:HlrGroup">
+                <identifier>6588888888</identifier>
+                                <alertingType>sequential</alertingType>
+
+
+                                <groupType>multipleUser</groupType>
+
+                                <primarySMSTerminal>6588888889</primarySMSTerminal>
+                                <alertDataCalls>sequential</alertDataCalls>
+                        <groupBasicService><serviceName>ts11</serviceName>
+                                        </groupBasicService><groupBasicService><serviceName>ts21</serviceName>
+                                                        </groupBasicService> <member>
+                                                <msisdn>6588888889</msisdn>
+                                        </member> <member>
+                                                <msisdn>6588888890</msisdn>
+                                        </member>
+                                        <primaryVoiceTerminal>6588888889</primaryVoiceTerminal>
+                                </object></spml:addRequest>

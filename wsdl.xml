@@ -1,0 +1,44 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+<wsdl:definitions xmlns:apachesoap="http://xml.apache.org/xml-soap" xmlns:impl="urn:siemens:names:prov:gw:HLR_EPS_SUBSCRIBER:5:0:wsdl" xmlns:intf="urn:siemens:names:prov:gw:HLR_EPS_SUBSCRIBER:5:0:wsdl" xmlns:tns1="http://soapadapter.provgw" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:wsdlsoap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:xsd="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:siemens:names:prov:gw:HLR_EPS_SUBSCRIBER:5:0:wsdl">
+<!--
+WSDL created by Apache Axis version: 1.3
+Built on Jul 21, 2006 (10:49:20 CEST)
+-->
+<wsdl:types>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://soapadapter.provgw">
+<element name="receiveRequest" type="xsd:anyType"/>
+</schema>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="urn:siemens:names:prov:gw:HLR_EPS_SUBSCRIBER:5:0:wsdl">
+<element name="receiveRequestReturn" type="xsd:anyType"/>
+</schema>
+</wsdl:types>
+<wsdl:message name="receiveRequestResponse">
+<wsdl:part element="impl:receiveRequestReturn" name="receiveRequestReturn"/>
+</wsdl:message>
+<wsdl:message name="receiveRequestRequest">
+<wsdl:part element="tns1:receiveRequest" name="part"/>
+</wsdl:message>
+<wsdl:portType name="SPMLHlrEpsSubscriber50PortType">
+<wsdl:operation name="receiveRequest">
+<wsdl:input message="impl:receiveRequestRequest" name="receiveRequestRequest"/>
+<wsdl:output message="impl:receiveRequestResponse" name="receiveRequestResponse"/>
+</wsdl:operation>
+</wsdl:portType>
+<wsdl:binding name="SPMLHlrEpsSubscriber50SoapBinding" type="impl:SPMLHlrEpsSubscriber50PortType">
+<wsdlsoap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+<wsdl:operation name="receiveRequest">
+<wsdlsoap:operation soapAction=""/>
+<wsdl:input name="receiveRequestRequest">
+<wsdlsoap:body use="literal"/>
+</wsdl:input>
+<wsdl:output name="receiveRequestResponse">
+<wsdlsoap:body use="literal"/>
+</wsdl:output>
+</wsdl:operation>
+</wsdl:binding>
+<wsdl:service name="SPMLHlrEpsSubscriber50">
+<wsdl:port binding="impl:SPMLHlrEpsSubscriber50SoapBinding" name="SPMLHlrEpsSubscriber50">
+<wsdlsoap:address location="http://172.30.50.134:8081/ProvisioningGateway/services/SPMLHlrEpsSubscriber50Service"/>
+</wsdl:port>
+</wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,108 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:siemens:names:prov:gw:SPML:2:0">
+   <soapenv:Header/>
+   <soapenv:Body>
+	<spml:addRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  	     xmlns:subscriber="urn:siemens:names:prov:gw:SUBSCRIBER:1:0" 
+  	     xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0">
+         <version>SUBSCRIBER_v10</version>
+		 <object xsi:type="subscriber:HlrGroup">
+        <identifier>6586914011</identifier>
+        <alertingType>sequential</alertingType>
+        <alertingTimeParallel>0</alertingTimeParallel>
+        <alertingTimeSequence>0</alertingTimeSequence>
+        <groupType>multipleUser</groupType>
+        <toneType>simpleTone</toneType>
+        <memberCfSupp>false</memberCfSupp>
+        <primaryLBSTerminal>6598990021</primaryLBSTerminal>
+        <primarySMSTerminal>6598990021</primarySMSTerminal>
+        <alertDataCalls>sequential</alertDataCalls>
+        <odbic>0</odbic>
+        <groupBasicService>
+          <serviceName>ts11</serviceName>
+        </groupBasicService>
+        <groupBasicService>
+          <serviceName>ts21</serviceName>
+        </groupBasicService>
+        <member>
+          <msisdn>6594444444</msisdn>
+          <huntingOrder>3</huntingOrder>
+          <allowSyncFromGroup>true</allowSyncFromGroup>
+        </member>
+        <member>
+          <msisdn>6594444445</msisdn>
+          <huntingOrder>2</huntingOrder>
+          <allowSyncFromGroup>true</allowSyncFromGroup>
+        </member>
+		<member>
+          <msisdn>6598990021</msisdn>
+          <huntingOrder>1</huntingOrder>
+          <allowSyncFromGroup>true</allowSyncFromGroup>
+        </member>
+        <primaryVoiceTerminal>6594444444</primaryVoiceTerminal>
+        <syncEnabled>false</syncEnabled>
+      </object>
+</spml:addRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+
+1029 5329 5945 - Savings
+--------------------------------------------------------------------------------------------------------------------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soapadapter.provgw">
+   <soapenv:Header/>
+   <soapenv:Body>
+	<spml:searchRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  	     xmlns:subscriber="urn:siemens:names:prov:gw:HLR_SUBSCRIBER:4:5" 
+  	     xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0">
+         <version>SUBSCRIBER_v10</version>
+         <base>
+            <!--<objectclass>Subscriber</objectclass>-->
+				<objectclass>HlrGroup</objectclass> 
+			<!--<alias name="msisdn" value="6596961213" /> --> 
+			 <alias name="msisdn" value="6586914011" xsi:type="subscriber:HLRGroupAliasType"/> 
+         </base>
+      </spml:searchRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+--------------------------------------------------------------------------------------------------------------------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:siemens:names:prov:gw:SPML:2:0">
+   <soapenv:Header/>
+   <soapenv:Body>
+	<spml:searchRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  	     xmlns:subscriber="urn:siemens:names:prov:gw:SUBSCRIBER:1:0" 
+  	     xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0">
+         <version>SUBSCRIBER_v10</version>
+         <base>
+            <objectclass>Subscriber</objectclass>
+			<!--<alias name="msisdn" value="6596961213" /> --> 
+			 <alias name="msisdn" value="6586914000" /> 
+         </base>
+         <returnAttribute>hlr</returnAttribute>
+      </spml:searchRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+--------------------------------------------------------------------------------------------------------------------------------------
+ZMIO:GMSISDN=6586914000;
+
+ZMIG:GIMSI=525034747000008,GMSISDN=6586914008,HUNT=S,GUSR=MUL,HUNTDC=S,:MBRS=6594444444&6594444445&65131000&651381:;
+ZMIG:GIMSI=525034747000008,GMSISDN=6586914008,HUNT=S,GUSR=MUL,HUNTDC=S,:MBRS=6586914009&6586914011&65131000&651381:;
+
+MAIN LEVEL COMMAND <___>
+<ZMIG:GIMSI=525034747000008,GMSISDN=6586914008,HUNT=S,GUSR=MUL,HUNTDC=S,:MBRS=6594444444&6594444445:;
+
+
+COMMAND EXECUTED
+
+
+HOME SUBSCRIBER IDENTIFICATION HANDLING COMMAND <MI_>
+
+DEBUG--gfCO--Mediation_Function--CoreThread-98-- 2015-01-16 12:50:57 247 --Trace.traceDebug(Trace.java:33)--executeAndVerify:jsonResult:[SEARCHRESULT:[ntype:single,
+imsiActive:true, mobileSubscriberType:genericSubscriber, umtsSubscriber:[accTypeGSM:true], wllSubscriber:false, mscat:10, odboc:0, odbic:0, odbr:1, odboprc:0, odbssm
+:0, clipOverride:false, colpOverride:false, nwa:3, odbgprs:0, sr:1, odbsci:0, ts11:[msisdn:6594444445], ts21:[msisdn:6594444445], ts22:[msisdn:6594444445], bs20genr:
+[msisdn:6594444445], bs30genr:[msisdn:6594444445], bs40genr:[msisdn:6594444445], gprs:[msisdn:6594444445], isActiveIMSI:false, actIMSIGprs:false, obGprs:0, optimalRo
+uting:true, ndcLac:9, pdpContext:[id:1, type:2, qosProfile:PPU7200, apn:MIWORLD, apnArea:HPLMN], vlrMobData:[vlrIdValid:false, mobileTerminatingCallPossible:true, pl
+mnAllowed:true, roamingAreaAllowed:true, mscAreaRestrictedReceived:false, msPurged:false, supportedCAMELPhaseByVLR:1, supportedMAPVersionForLUP:3, featuresNotSupport
+edByVLR:[extCamel, oICK], prohFtnoUpdInVlrFail:false, ts10BarrByCb:0, ts20BarrByCb:0, ts60BarrByCb:0, bs20BarrByCb:0, bs30BarrByCb:0, bs40BarrByCb:0, vlrSupportsLong
+Ftno:false, ssetSubst:0], sgsnMobData:[sgsnIdValid:false, plmnAllowed:true, roamingAreaAllowed:true, gprsAllowed:true, supportedCAMELPhaseBySGSN:1, supportedMAPVersi
+onForLUP:3, featuresNotSupportedBySGSN:extCamel, sgsnCamelNot:false, sgsnExtQos:false, msPurged:false, sgsnAreaRestRcvd:false], routingCategory:0, profileType:mssMul
+tiSim, commonMSISDN:6586914011, overrideCommonCLI:true, mssMultiSim:[denyDirectSMS:false, denyDirectCall:false, groupMSISDN:6586914011, primarySMSTerminal:6594444444
+, allowSyncToGroup:true], csFallback:[mtrr:true]], identifier:525031298940009, RESULT:0[OK]]

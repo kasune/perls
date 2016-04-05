@@ -1,0 +1,87 @@
+<spml:modifyRequest xmlns:spml="urn:siemens:
+names:prov:gw:SPML:2:0"
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+              xmlns:subscriber="urn:siemens:names:prov:gw:SUBSCRIBER:1:0">
+              <version>SUBSCRIBER_v10</version>
+                  <objectclass>Subscriber</objectclass>
+                        <identifier alias="msisdn" xsi:type="subscriber:HSSIdentifier">6588186415</identifier>
+                        <modification name="hss" operation="add">
+                        <valueObject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="subscriber:HSS">
+                <subscriptionId>1</subscriptionId>
+                                <profileType>normal</profileType>
+                                <adminBlocked>false</adminBlocked>
+                                <defaultScscfRequired>true</defaultScscfRequired>
+                                <maximumPublicIds>6</maximumPublicIds>  <privateUserId>
+                                                                                                <privateUserId>525034375459596@ims.mnc003.mcc525.3gppnetwork.org</pri
+vateUserId>
+                                                                                        <provisionedImsi>
+                                                                        <provisionedImsi>525034375459596</provisionedImsi>
+
+                                                                                        </provisionedImsi>
+                                                                                          <msisdn>6588186415</msisdn>
+                                                                                        <preferredAuthenticationScheme>aka</preferredAuthenticationScheme>
+                                                                                        <preferredDomain>ims</preferredDomain>
+                                                                                        <looseRoutingIndicationRequired>false</looseRoutingIndicationRequired>
+                                            </privateUserId> <implicitRegisteredSet>
+                                                                      <irsId>IRS1</irsId>
+                                                                          <registrationStatus>notRegistered</registrationStatus>
+                                          </implicitRegisteredSet><publicUserId><originalPublicUserId>sip:525034375459596@ims.mnc003.mcc525.3gppnetwork.org</originalPublicUserId>
+                                                                <barringIndication>true</barringIndication>
+                                                                <defaultIndication>false</defaultIndication>
+                                                                <serviceProfileName>SP1</serviceProfileName>
+                                                                <irsId>IRS1</irsId>
+                                                                <aliasId>AliasGrp1</aliasId>
+                                                        </publicUserId><publicUserId><originalPublicUserId>sip:+6588186415@ims.mnc003.mcc525.3gppnetwork.org</originalPublicUserId>
+                                                                <barringIndication>false</barringIndication>
+                                                                <defaultIndication>true</defaultIndication>
+                                                                <serviceProfileName>SP1</serviceProfileName>
+                                                                <irsId>IRS1</irsId>
+                                                                <aliasId>AliasGrp1</aliasId>
+                                                        </publicUserId><publicUserId><originalPublicUserId>tel:+6588186415</originalPublicUserId>
+                                                                <barringIndication>false</barringIndication>
+                                                                <defaultIndication>false</defaultIndication>
+                                                                <serviceProfileName>SP1</serviceProfileName>
+                                                                <irsId>IRS1</irsId>
+                                                                <aliasId>AliasGrp1</aliasId>
+                                                        </publicUserId><publicUserId><originalPublicUserId>tel:88186415</originalPublicUserId>
+                                                                <barringIndication>false</barringIndication>
+                                                                <defaultIndication>false</defaultIndication>
+                                                                <serviceProfileName>SP1</serviceProfileName>
+                                                                <irsId>IRS1</irsId>
+                                                                <aliasId>AliasGrp1</aliasId>
+                                                        </publicUserId> <serviceProfile><profileName>SP1</profileName> <mandatoryCapability><mandatoryCapability>1</mandatoryCapability> </mandatoryCapability><globalFilterId>
+                                                                                  <globalFilterId>REG_SH_MAP</globalFilterId>
+                                                                                 </globalFilterId><globalFilterId>
+                                                                                  <globalFilterId>INV_MO_SH_MAP</globalFilterId>
+                                                                                 </globalFilterId><globalFilterId>
+                                                                                  <globalFilterId>INV_TR_SH_MAP</globalFilterId>
+                                                                                 </globalFilterId><globalFilterId>
+                                                                                  <globalFilterId>INV_TU_SH_MAP</globalFilterId>
+                                                                                 </globalFilterId><subscribedMediaProfileID>
+                                                         <sessionReleasePolicy>deregisterNoForcedSessionRelease</sessionReleasePolicy>
+                                                         <forkingPolicy>noForking</forkingPolicy>
+                                                         </subscribedMediaProfileID>
+                                                        </serviceProfile> <aliasGroup>
+                        <aliasId>AliasGrp1</aliasId>
+                        <serviceProfileName>SP1</serviceProfileName>
+                        <irsId>IRS1</irsId>
+                          </aliasGroup> <aliasRepositoryData>
+                                <serviceIndId>SIP-Basic-Data</serviceIndId>
+                                <asData>
+                                <![CDATA[
+
+                                        <SIP-Basic-Data
+                                          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                                          xmlns:nsn="http://nsn.com"
+                                          xmlns= "http://nsn.com">
+                                                  <imsi>525034375459596</imsi>
+                                                  <msisdn>6588186415</msisdn> <msg-profile-id>0</msg-profile-id>
+                                                <group-profile-id>1</group-profile-id>
+                                        </SIP-Basic-Data>
+                                        ]]>
+                                </asData>
+                                <aliasId>AliasGrp1</aliasId>
+                                </aliasRepositoryData>
+                        </valueObject>
+                </modification>
+          </spml:modifyRequest>

@@ -1,0 +1,442 @@
+'objects' => {
+               'xsi:type' => 'ns2:Subscriber',
+               'auc' => {
+                        'imsi' => '525034371721726'
+                      },
+               'xmlns:xsi' => 'http://www.w3.org/2001/XMLSchema-instance',
+               'hlr' => {
+                          'epsPdnContext' => [
+                                             {
+                                               'pdnGwDynamicAllocation' => 'true',
+                                               'contextId' => '1',
+                                               'pdnChargingCharacteristics' => {
+                                                                               'chargingCharacteristicsProfile' => '0',
+                                                                               'chargingCharacteristics' => 'none'
+                                                                             },
+                                               'type' => 'both',
+                                               'apn' => 'SUNSURF',
+                                               'maxBandwidthUp' => '64000000',
+                                               'maxBandwidthDown' => '256000000',
+                                               'qos' => 'QOS5',
+                                               'vplmnAddressAllowed' => 'false'
+                                             },
+                                             {
+                                               'maxBandwidthUp' => '64000000',
+                                               'type' => 'both',
+                                               'apn' => 'MIWORLD',
+                                               'contextId' => '2',
+                                               'pdnChargingCharacteristics' => {
+                                                                               'chargingCharacteristicsProfile' => '0',
+                                                                               'chargingCharacteristics' => 'none'
+                                                                             },
+                                               'pdnGwDynamicAllocation' => 'true',
+                                               'vplmnAddressAllowed' => 'false',
+                                               'qos' => 'QOS5',
+                                               'maxBandwidthDown' => '256000000'
+                                             },
+                                             {
+                                               'maxBandwidthUp' => '64000000',
+                                               'apn' => 'IMS',
+                                               'type' => 'both',
+                                               'pdnChargingCharacteristics' => {
+                                                                               'chargingCharacteristics' => 'none',
+                                                                               'chargingCharacteristicsProfile' => '0'
+                                                                             },
+                                               'contextId' => '20',
+                                               'pdnGwDynamicAllocation' => 'true',
+                                               'vplmnAddressAllowed' => 'false',
+                                               'qos' => 'IMS',
+                                               'maxBandwidthDown' => '64000000'
+                                             },
+                                             {
+                                               'maxBandwidthUp' => '64000',
+                                               'type' => 'both',
+                                               'apn' => 'XCAP',
+                                               'qos' => 'XCAP',
+                                               'contextId' => '21',
+                                               'maxBandwidthDown' => '64000',
+                                               'pdnGwDynamicAllocation' => 'true'
+                                             }
+                                           ],
+                          'imeisv' => '3547340618725801',
+                          'clipOverride' => 'false',
+                          'nwa' => '3',
+                          'rr' => 'M1Roam',
+                          'vlrMobData' => {
+                                          'mobileTerminatingCallPossible' => 'true',
+                                          'msPurged' => 'false',
+                                          'locUpdateCSTimestamp' => '2015-09-03T08:33:36.144+08:00',
+                                          'mscAreaRestrictedReceived' => 'false',
+                                          'ts10BarrByCb' => '0',
+                                          'isdnNumberOfVLR' => '6593659940',
+                                          'bs20BarrByCb' => '0',
+                                          'supportedLCSCapabilitySetsForVLR' => '1',
+                                          'featuresNotSupportedByVLR' => [
+                                                                         'camelMCSI',
+                                                                         'camelDCSI',
+                                                                         'camelVTCSI',
+                                                                         'oCSI',
+                                                                         'superCharger',
+                                                                         'sSCSI',
+                                                                         'camelMTSMSCSI',
+                                                                         'camelSMSCSI',
+                                                                         'extCamel',
+                                                                         'oICK'
+                                                                       ],
+                                          'plmnAllowed' => 'true',
+                                          'mscNumber' => '6593659940',
+                                          'prohFtnoUpdInVlrFail' => 'false',
+                                          'ssetSubst' => '0',
+                                          'supportedMAPVersionForLUP' => '3',
+                                          'vlrIdValid' => 'true',
+                                          'bs30BarrByCb' => '0',
+                                          'roamingAreaAllowed' => 'true',
+                                          'ts20BarrByCb' => '0',
+                                          'bs40BarrByCb' => '0',
+                                          'vlrSupportsLongFtno' => 'false',
+                                          'supportedCAMELPhaseByVLR' => '7',
+                                          'ts60BarrByCb' => '0'
+                                        },
+                          'ntype' => 'multi',
+                          'mscat' => '10',
+                          'pdpContext' => {
+                                          '1' => {
+                                                 'apnArea' => 'HPLMN',
+                                                 'qosProfile' => 'SUN21000',
+                                                 'type' => '2',
+                                                 'apn' => 'MIWORLD'
+                                               },
+                                          '2' => {
+                                                 'apnArea' => 'HPLMN',
+                                                 'type' => '2',
+                                                 'apn' => 'SUNSURF',
+                                                 'qosProfile' => 'SUN21000'
+                                               }
+                                        },
+                          'bs30genr' => {
+                                        'msisdn' => '6592766232',
+                                        'bcieID' => 'B1F-0'
+                                      },
+                          'odbic' => '0',
+                          'obGprs' => '0',
+                          'roamSubscription' => {
+                                                'roamSubscriptionInfo' => 'M1RSI'
+                                              },
+                          'cfnrc' => [
+                                     {
+                                       'basicServiceGroup' => 'BS20-dataAsync',
+                                       'status' => '4',
+                                       'notifyCallingSubscriber' => 'false'
+                                     },
+                                     {
+                                       'basicServiceGroup' => 'BS30-dataSync',
+                                       'status' => '4',
+                                       'notifyCallingSubscriber' => 'false'
+                                     },
+                                     {
+                                       'notifyCallingSubscriber' => 'false',
+                                       'basicServiceGroup' => 'TS10-telephony',
+                                       'status' => '4'
+                                     }
+                                   ],
+                          'umtsSubscriber' => {
+                                              'accTypeGSM' => 'true',
+                                              'accTypeGERAN' => 'true',
+                                              'accTypeUTRAN' => 'true'
+                                            },
+                          'sgsnMobData' => {
+                                           'locUpdatePSTimestamp' => '2015-08-30T18:30:51.643+08:00',
+                                           'gprsCsiSubst' => '0',
+                                           'supportedCAMELPhaseBySGSN' => '4',
+                                           'plmnAllowed' => 'true',
+                                           'ueSrvccCapability' => '0',
+                                           'featuresNotSupportedBySGSN' => [
+                                                                           'gprsCsi',
+                                                                           'mtSmsCsi',
+                                                                           'smsCsi',
+                                                                           'superCharger',
+                                                                           'mgCsi',
+                                                                           'tadsDataRetrieval',
+                                                                           'extCamel'
+                                                                         ],
+                                           'isdnNumberOfSGSN' => '6596845919',
+                                           'msPurged' => 'false',
+                                           'sgsnAddress' => '202.65.240.249',
+                                           'gprsSmsCsiSubst' => '0',
+                                           'sgsnExtQos' => 'true',
+                                           'roamingAreaAllowed' => 'true',
+                                           'sgsnCamelNot' => 'false',
+                                           'supportedMAPVersionForLUP' => '3',
+                                           'sgsnAreaRestRcvd' => 'false',
+                                           'sgsnIdValid' => 'true',
+                                           'imsVoiceOverPS' => 'imsVoiceOverPSSupportUnknown',
+                                           'gprsAllowed' => 'true'
+                                         },
+                          'imsiActive' => 'true',
+                          'ndcLac' => '9',
+                          'tcsi' => {
+                                    'csiState' => '1',
+                                    'operatorServiceName' => 'VOLTE_POST',
+                                    'csiNotify' => '2'
+                                  },
+                          'cfb' => [
+                                   {
+                                     'status' => '4',
+                                     'basicServiceGroup' => 'BS20-dataAsync',
+                                     'notifyForwardingSubscriber' => 'false',
+                                     'notifyCallingSubscriber' => 'false'
+                                   },
+                                   {
+                                     'notifyForwardingSubscriber' => 'false',
+                                     'status' => '4',
+                                     'basicServiceGroup' => 'BS30-dataSync',
+                                     'notifyCallingSubscriber' => 'false'
+                                   },
+                                   {
+                                     'notifyCallingSubscriber' => 'false',
+                                     'notifyForwardingSubscriber' => 'false',
+                                     'basicServiceGroup' => 'TS10-telephony',
+                                     'status' => '4'
+                                   }
+                                 ],
+                          'ts22' => {
+                                    'msisdn' => '6592766232'
+                                  },
+                          'odbr' => '0',
+                          'isActiveIMSI' => 'true',
+                          'wllSubscriber' => 'false',
+                          'mpty' => 'true',
+                          'notifyToCSE' => {
+                                           'callBarringServices' => 'true',
+                                           'callForwardingServices' => 'true',
+                                           'operatorDeterminedBarringServices' => 'true'
+                                         },
+                          'mobileSubscriberType' => 'genericSubscriber',
+                          'odbgprs' => '1',
+                          'bs20genr' => {
+                                        'bcieID' => 'B17-0',
+                                        'msisdn' => '6592766232'
+                                      },
+                          'cfnry' => [
+                                     {
+                                       'notifyCallingSubscriber' => 'false',
+                                       'basicServiceGroup' => 'BS20-dataAsync',
+                                       'status' => '4',
+                                       'notifyForwardingSubscriber' => 'false'
+                                     },
+                                     {
+                                       'notifyForwardingSubscriber' => 'false',
+                                       'basicServiceGroup' => 'BS30-dataSync',
+                                       'status' => '4',
+                                       'notifyCallingSubscriber' => 'false'
+                                     },
+                                     {
+                                       'status' => '4',
+                                       'basicServiceGroup' => 'TS10-telephony',
+                                       'notifyForwardingSubscriber' => 'false',
+                                       'notifyCallingSubscriber' => 'false'
+                                     }
+                                   ],
+                          'odboprc' => '0',
+                          'odbsci' => '0',
+                          'sr' => '1',
+                          'cuss' => {
+                                    'status' => '2'
+                                  },
+                          'optimalRouting' => 'false',
+                          'csFallback' => {
+                                          'mtrr' => 'true'
+                                        },
+                          'ts11' => {
+                                      'bcieID' => 'TS11',
+                                      'msisdn' => '6592766232'
+                                    },
+                          'ts21' => {
+                                      'msisdn' => '6592766232'
+                                    },
+                          'eps' => {
+                                   'msPurgedEps' => 'false',
+                                   'rfspIndex' => '256',
+                                   'maxBandwidthDown' => '256000000',
+                                   'sessionTransferNumber' => '6597444440',
+                                   'defaultPdnContextId' => '1',
+                                   'maxBandwidthUp' => '64000000',
+                                   'mmeUpdateSucceeded' => 'false'
+                                 },
+                          'clip' => 'true',
+                          'caw' => [
+                                   {
+                                     'status' => '4',
+                                     'basicServiceGroup' => 'BS20-dataAsync'
+                                   },
+                                   {
+                                     'basicServiceGroup' => 'BS30-dataSync',
+                                     'status' => '4'
+                                   },
+                                   {
+                                     'basicServiceGroup' => 'TS10-telephony',
+                                     'status' => '5'
+                                   }
+                                 ],
+                          'cfu' => [
+                                   {
+                                     'notifyCallingSubscriber' => 'false',
+                                     'basicServiceGroup' => 'TS20-shortMessage',
+                                     'status' => '4'
+                                   },
+                                   {
+                                     'status' => '4',
+                                     'basicServiceGroup' => 'BS20-dataAsync',
+                                     'notifyCallingSubscriber' => 'false'
+                                   },
+                                   {
+                                     'status' => '4',
+                                     'basicServiceGroup' => 'BS30-dataSync',
+                                     'notifyCallingSubscriber' => 'false'
+                                   },
+                                   {
+                                     'basicServiceGroup' => 'TS10-telephony',
+                                     'status' => '4',
+                                     'notifyCallingSubscriber' => 'false'
+                                   }
+                                 ],
+                          'epsPsRoamAreaMmeName' => 'M1',
+                          'odboc' => '0',
+                          'actIMSIGprs' => 'true',
+                          'colpOverride' => 'false',
+                          'epsRoamAreaName' => 'LTEHPLMN',
+                          'odbssm' => '0',
+                          'gprs' => {
+                                    'msisdn' => '6592766232'
+                                  },
+                          'hold' => 'true'
+                        },
+               'xmlns:ns2' => 'urn:siemens:names:prov:gw:SUBSCRIBER:1:0'
+             },
+'requestID' => '-7f287520:14f88e38f65:760',
+'executionTime' => '23',
+'version' => 'SUBSCRIBER_v10',
+'xmlns:subscriber' => 'urn:siemens:names:prov:gw:SUBSCRIBER:1:0',
+'searchStatus' => 'completeResult',
+'xmlns:spml' => 'urn:siemens:names:prov:gw:SPML:2:0'
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+{
+  'executionTime' => '14',
+  'searchStatus' => 'completeResult',
+  'xmlns:xsi' => 'http://www.w3.org/2001/XMLSchema-instance',
+  'requestID' => '429c3fe3:1509970e26c:3003',
+  'result' => 'success',
+  'xmlns:subscriber' => 'urn:siemens:names:prov:gw:SUBSCRIBER:1:0',
+  'version' => 'SUBSCRIBER_v10',
+  'xmlns:spml' => 'urn:siemens:names:prov:gw:SPML:2:0',
+  'objects' => {
+                 'xsi:type' => 'ns2:Subscriber',
+                 'auc' => {
+                            'imsi' => '525034373922059'
+                          },
+                 'hlr' => {
+                            'cfu' => [
+                                     {
+                                       'status' => '7',
+                                       'notifyCallingSubscriber' => 'false',
+                                       'ftnoType' => 'internat',
+                                       'basicServiceGroup' => 'TS10-telephony',
+                                       'isdnNumber' => '6587770878'
+                                     },
+                                     {
+                                       'status' => '4',
+                                       'basicServiceGroup' => 'TS20-shortMessage',
+                                       'notifyCallingSubscriber' => 'false'
+                                     }
+                                   ],
+                            'clipOverride' => 'false',
+                            'mscat' => '10',
+                            'actIMSIGprs' => 'false',
+                            'roamSubscription' => {
+                                                  'roamSubscriptionInfo' => 'M1RSI'
+                                                },
+                            'nwa' => '1',
+                            'cuss' => {
+                                      'status' => '2'
+                                    },
+                            'imsiActive' => 'true',
+                            'sgsnMobData' => {
+                                             'sgsnAreaRestRcvd' => 'false',
+                                             'supportedCAMELPhaseBySGSN' => '1',
+                                             'roamingAreaAllowed' => 'true',
+                                             'sgsnIdValid' => 'false',
+                                             'featuresNotSupportedBySGSN' => 'extCamel',
+                                             'sgsnExtQos' => 'false',
+                                             'sgsnCamelNot' => 'false',
+                                             'msPurged' => 'false',
+                                             'plmnAllowed' => 'true',
+                                             'gprsAllowed' => 'true',
+                                             'supportedMAPVersionForLUP' => '3'
+                                           },
+                            'csFallback' => {
+                                            'mtrr' => 'true'
+                                          },
+                            'odbic' => '0',
+                            'ts21' => {
+                                      'msisdn' => '6581983239'
+                                    },
+                            'wllSubscriber' => 'false',
+                            'rr' => 'M1Roam',
+                            'msgWaitData' => {
+                                             'msisdnUsedForAlertingOfSMSServiceCentre' => '6581983239',
+                                             'mobileStationNotReachableFlag' => 'false'
+                                           },
+                            'optimalRouting' => 'false',
+                            'umtsSubscriber' => {
+                                                'accTypeUTRAN' => 'true',
+                                                'accTypeGSM' => 'true',
+                                                'accTypeGERAN' => 'true'
+                                              },
+                            'ntype' => 'single',
+                            'odbsci' => '0',
+                            'ndcLac' => '8',
+                            'sr' => '1',
+                            'ts22' => {
+                                      'msisdn' => '6581983239'
+                                    },
+                            'colpOverride' => 'false',
+                            'vlrMobData' => {
+                                              'mscNumber' => '6597664770',
+                                              'supportedMAPVersionForLUP' => '3',
+                                              'mscAreaRestrictedReceived' => 'false',
+                                              'supportedCAMELPhaseByVLR' => '1',
+                                              'bs30BarrByCb' => '0',
+                                              'ssetSubst' => '0',
+                                              'bs20BarrByCb' => '0',
+                                              'bs40BarrByCb' => '0',
+                                              'ts60BarrByCb' => '0',
+                                              'featuresNotSupportedByVLR' => [
+                                                                             'extCamel',
+                                                                             'oICK'
+                                                                           ],
+                                              'vlrIdValid' => 'true',
+                                              'prohFtnoUpdInVlrFail' => 'false',
+                                              'vlrSupportsLongFtno' => 'false',
+                                              'ts10BarrByCb' => '0',
+                                              'ts20BarrByCb' => '0',
+                                              'msPurged' => 'false',
+                                              'isdnNumberOfVLR' => '6597664770',
+                                              'plmnAllowed' => 'true',
+                                              'mobileTerminatingCallPossible' => 'true',
+                                              'roamingAreaAllowed' => 'true'
+                                            },
+                            'mobileSubscriberType' => 'genericSubscriber',
+                            'odbssm' => '0',
+                            'ts11' => {
+                                        'msisdn' => '6581983239'
+                                      },
+                            'odboc' => '2',
+                            'odboprc' => '2',
+                            'obGprs' => '0',
+                            'isActiveIMSI' => 'false',
+                            'odbr' => '1'
+                          },
+                 'xmlns:xsi' => 'http://www.w3.org/2001/XMLSchema-instance',
+                 'xmlns:ns2' => 'urn:siemens:names:prov:gw:SUBSCRIBER:1:0'
+               }
+}

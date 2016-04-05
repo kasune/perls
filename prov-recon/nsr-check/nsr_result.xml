@@ -1,0 +1,8 @@
+  <soapenv:Body name="spml:searchResponse" executionTime="5" requestID="286c6f4:14feefd30c5:-5271" result="success" searchStatus="completeResult" version="HLR_EPS_NSR_v50" xmlns:nsr="urn:siemens:names:prov:gw:HLR_EPS_NSR:5:0" xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <objects identifier="M1" isAreaPos="false" xmlns:ns2="urn:siemens:names:prov:gw:HLR_EPS_NSR:5:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:PsRoamAreaMmeAddr">
+      <mmeAddress mmeHostName="BLACKLIST.MME.EPC.MNC003.MCC525.3GPPNETWORK.ORG" />
+    </objects>
+  </soapenv:Body>
+  <xmlns:soapenv>http://schemas.xmlsoap.org/soap/envelope/</xmlns:soapenv>
+  <xmlns:xsd>http://www.w3.org/2001/XMLSchema</xmlns:xsd>
+  <xmlns:xsi>http://www.w3.org/2001/XMLSchema-instance</xmlns:xsi>

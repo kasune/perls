@@ -1,0 +1,44 @@
+  <soapenv:Body name="spml:searchResponse" executionTime="24" requestID="4887af75:149078e0860:-6152" result="success" searchStatus="completeResult" version="HLR_EPS_SUBSCRIBER_v50" xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0" xmlns:subscriber="urn:siemens:names:prov:gw:HLR_EPS_SUBSCRIBER:5:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <objects xmlns:ns2="urn:siemens:names:prov:gw:HLR_EPS_SUBSCRIBER:5:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Subscriber">
+      <auc imsi="525034747000006" />
+      <hlr actIMSIGprs="true" clip="true" clipOverride="false" colpOverride="false" commonMSISDN="6586914005" hold="true" isActiveIMSI="true" mobileSubscriberType="genericSubscriber" mpty="true" mscat="10" ndcLac="8" ntype="single" nwa="3" obGprs="0" odbgprs="0" odbic="0" odboc="0" odboprc="0" odbr="0" odbsci="0" odbssm="0" optimalRouting="true" overrideCommonCLI="true" profileType="mssMultiSim" rr="M1Roam" sr="1" vlrid="true" wllSubscriber="false">
+        <bs20genr msisdn="6586914006" />
+        <bs30genr msisdn="6586914006" />
+        <caw basicServiceGroup="TS10-telephony" status="4" />
+        <caw basicServiceGroup="BS20-dataAsync" status="4" />
+        <caw basicServiceGroup="BS30-dataSync" status="4" />
+        <csFallback mtrr="true" />
+        <gprs msisdn="6586914006" />
+        <msgWaitData mobileCapacityExceededFlag="false" mobileStationNotReachableFlag="false" mobileStationNotReachableFlagForGPRS="false" msisdnUsedForAlertingOfSMSServiceCentre="6586914006" />
+        <mssMultiSim allowSyncToGroup="true" denyDirectCall="false" denyDirectSMS="false" groupMSISDN="6586914005" primarySMSTerminal="6586914007" />
+        <pdpContext id="1" apn="SUNSURF" apnArea="HPLMN" qosProfile="PPU7200" type="2" />
+        <sgsnMobData gprsAllowed="true" gprsCsiSubst="0" gprsSmsCsiSubst="0" isdnNumberOfSGSN="6596845918" locUpdatePSTimestamp="2014-11-04T17:10:44.794+08:00" msPurged="false" plmnAllowed="true" roamingAreaAllowed="true" sgsnAddress="202.65.241.121" sgsnAreaRestRcvd="false" sgsnCamelNot="false" sgsnExtQos="true" sgsnIdValid="true" supportedCAMELPhaseBySGSN="4" supportedMAPVersionForLUP="3">
+          <featuresNotSupportedBySGSN>gprsCsi</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>mtSmsCsi</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>smsCsi</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>superCharger</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>mgCsi</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>extCamel</featuresNotSupportedBySGSN>
+        </sgsnMobData>
+        <ts11 msisdn="6586914006" />
+        <ts21 msisdn="6586914006" />
+        <ts22 msisdn="6586914006" />
+        <umtsSubscriber accTypeGERAN="true" accTypeGSM="true" accTypeUTRAN="true" />
+        <vlrMobData bs20BarrByCb="0" bs30BarrByCb="0" bs40BarrByCb="0" locUpdateCSTimestamp="2014-10-28T13:37:47.594+08:00" mobileTerminatingCallPossible="true" msPurged="false" mscAreaRestrictedReceived="false" plmnAllowed="false" prohFtnoUpdInVlrFail="false" roamingAreaAllowed="true" ssetSubst="0" supportedCAMELPhaseByVLR="7" supportedLCSCapabilitySetsForVLR="1" supportedMAPVersionForLUP="3" ts10BarrByCb="0" ts20BarrByCb="0" ts60BarrByCb="0" vlrIdValid="false" vlrSupportsLongFtno="false">
+          <featuresNotSupportedByVLR>camelMCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>camelDCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>camelVTCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>oCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>superCharger</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>sSCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>camelMTSMSCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>camelSMSCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>extCamel</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>oICK</featuresNotSupportedByVLR>
+        </vlrMobData>
+      </hlr>
+    </objects>
+  </soapenv:Body>
+  <xmlns:soapenv>http://schemas.xmlsoap.org/soap/envelope/</xmlns:soapenv>
+  <xmlns:xsd>http://www.w3.org/2001/XMLSchema</xmlns:xsd>
+  <xmlns:xsi>http://www.w3.org/2001/XMLSchema-instance</xmlns:xsi>

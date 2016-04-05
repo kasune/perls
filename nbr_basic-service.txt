@@ -1,0 +1,13 @@
+<spml:modifyRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ns2="urn:siemens:names:prov:gw:SUBSCRIBER:1:0" xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0">
+    <version>SUBSCRIBER_v10</version>
+        <objectclass>Subscriber</objectclass>
+        <identifier alias="imsi" xsi:type="ns2:SubscriberIdentifier">525036159999927</identifier>
+    <modification operation="addorset">
+        <valueObject xsi:type="ns2:HLR">
+            <ntype>multi</ntype>
+            <ts11><msisdn>6598996927</msisdn><bcieID>TS11</bcieID></ts11>
+             <bs20genr><msisdn>6598996927</msisdn><bcieID>B17-1</bcieID></bs20genr>
+             <bs30genr><msisdn>6598996927</msisdn><bcieID>B1F-1</bcieID></bs30genr>
+        </valueObject>
+    </modification>
+</spml:modifyRequest>

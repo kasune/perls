@@ -1,0 +1,197 @@
+Single
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:siemens:names:prov:gw:SPML:2:0">
+   <soapenv:Header/>
+   <soapenv:Body>
+	<spml:searchRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  	     xmlns:subscriber="urn:siemens:names:prov:gw:SUBSCRIBER:1:0" 
+  	     xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0">
+         <version>SUBSCRIBER_v10</version>
+         <base>
+            <objectclass>Subscriber</objectclass>
+			<!--<alias name="msisdn" value="6596961213" /> --> 
+			 <alias name="msisdn" value="6590739641" /> 
+         </base>
+          <returnAttribute>hlr</returnAttribute>
+      </spml:searchRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+----------------------------------------------------------------------------------------------------------------------------------------
+Multisim
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:soap="http://soapadapter.provgw">
+   <soapenv:Header/>
+   <soapenv:Body>
+	<spml:searchRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  	     xmlns:subscriber="urn:siemens:names:prov:gw:HLR_SUBSCRIBER:4:5" 
+  	     xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0">
+         <version>SUBSCRIBER_v10</version>
+         <base>
+            <!--<objectclass>Subscriber</objectclass>-->
+				<objectclass>HlrGroup</objectclass> 
+			<!--<alias name="msisdn" value="6581008321" /> --> 
+			 <alias name="msisdn" value="6598897719" xsi:type="subscriber:HLRGroupAliasType"/> 
+         </base>
+      </spml:searchRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+----------------------------------------------------------------------------------------------------------------------------------------
+<!--<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+   xmlns:urn="urn:siemens:names:prov:gw:SPML:2:0">
+<soapenv:Header/>
+   <soapenv:Body>
+<urn:searchRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  	     xmlns:subscriber="urn:siemens:names:prov:gw:HLR_EPS_SUBSCRIBER:5:0" 
+  	     xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0">
+         <version>HLR_EPS_SUBSCRIBER_v50</version>
+         <base>
+            <objectclass>Subscriber</objectclass>
+             <alias name="imsi" value="525031111111111" /> 
+     <alias name="msisdn" value="6586914000" />  
+			<alias name="msisdn" value="6596960142" /> 
+         </base>
+         <returnAttribute>hlr</returnAttribute>
+      </urn:searchRequest>
+   </soapenv:Body>
+</soapenv:Envelope> 
+-->
+----------------------------------------------------------------------------------------------------------------------------------------
+<!-- modify request -->
+<!--
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" 
+   xmlns:urn="urn:siemens:names:prov:gw:SPML:2:0">
+<soapenv:Header/>
+   <soapenv:Body>
+<spml:modifyRequest xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0"
+	xmlns:subscriber="urn:siemens:names:prov:gw:HLR_EPS_SUBSCRIBER:5:0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<version>HLR_EPS_SUBSCRIBER_v50</version>
+	<objectclass>Subscriber</objectclass>
+	<identifier alias="imsi">525034370001114</identifier>
+	<modification name="hlr" operation="addorset"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<valueObject xsi:type="subscriber:HLR">
+		</valueObject>
+	</modification>
+	<modification name="hlr/caw" operation="add" scope="uniqueTypeMapping"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<valueObject xsi:type="subscriber:CAW">
+			<basicServiceGroup>TS10-telephony</basicServiceGroup>
+			<status>5</status>
+		</valueObject>
+	</modification>
+	<modification name="hlr/caw" operation="add" scope="uniqueTypeMapping"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<valueObject xsi:type="subscriber:CAW">
+			<basicServiceGroup>TS60-fax</basicServiceGroup>
+			<status>5</status>
+		</valueObject>
+	</modification>
+	<modification name="hlr/caw" operation="add" scope="uniqueTypeMapping"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+		<valueObject xsi:type="subscriber:CAW">
+			<basicServiceGroup>BS20-dataAsync</basicServiceGroup>
+			<status>5</status>
+		</valueObject>
+	</modification>	
+-->	
+	<!-- <modification operation="set"
+		name="hlr/caw[@basicServiceGroup='TS10-telephony']">
+		<valueObject xsi:type="subscriber:CAW">
+			<status>4</status>
+		</valueObject>
+	</modification>
+
+	<modification operation="set"
+		name="hlr/caw[@basicServiceGroup='TS60-fax']">
+		<valueObject xsi:type="subscriber:CAW">
+			<status>4</status>
+		</valueObject>
+	</modification>
+
+	<modification operation="set"
+		name="hlr/caw[@basicServiceGroup='BS20-dataAsync']">
+		<valueObject xsi:type="subscriber:CAW">
+			<status>4</status>
+		</valueObject>
+	</modification>
+	-->
+<!--	
+</spml:modifyRequest>
+</soapenv:Body>
+</soapenv:Envelope>
+-->
+----------------------------------------------------------------------------------------------------------------------------------------NW Lock------------------------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:siemens:names:prov:gw:SPML:2:0">
+   <soapenv:Header/>
+   <soapenv:Body>
+	<spml:modifyRequest xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0" xmlns:ns2="urn:siemens:names:prov:gw:SUBSCRIBER:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <version>SUBSCRIBER_v10</version>
+         <objectclass>Subscriber</objectclass>
+         <identifier alias="imsi" xsi:type="ns2:SubscriberIdentifier">525034747000015</identifier>
+				<modification operation="set"> <valueObject xsi:type="ns2:HLR"><roamSubscription><roamSubscriptionInfo>dataRP25</roamSubscriptionInfo></roamSubscription>
+                         </valueObject>
+                </modification>
+                <modification operation="set"> <valueObject xsi:type="ns2:HLR"><odbgprs>0</odbgprs>
+                         </valueObject>
+                </modification>
+</spml:modifyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>
+----------------------------------------------------------------------------------------------------------------------------------------addorset not working for PDNContext-------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:siemens:names:prov:gw:SPML:2:0">
+   <soapenv:Header/>
+	<soapenv:Body>
+		<spml:modifyRequest xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0" xmlns:ns2="urn:siemens:names:prov:gw:SUBSCRIBER:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+         <version>SUBSCRIBER_v10</version>
+         <objectclass>Subscriber</objectclass>
+         <identifier alias="imsi" xsi:type="ns2:SubscriberIdentifier">525034747800002</identifier>
+			<modification operation="addorset" scope="uniqueTypeMapping">
+				<valueObject xsi:type="ns2:EPS">
+					<defaultPdnContextId>1</defaultPdnContextId>
+					<maxBandwidthUp>64000000</maxBandwidthUp>
+					<maxBandwidthDown>256000000</maxBandwidthDown>
+					<rfspIndex>256</rfspIndex>
+				</valueObject>
+			</modification>
+			<modification operation="add" >
+				<valueObject xsi:type="ns2:EPSPdnContext">
+					<apn>SUNSURF</apn>
+					<contextId>1</contextId>
+					<type>both</type>
+					<pdnGwDynamicAllocation>true</pdnGwDynamicAllocation>
+					<vplmnAddressAllowed>false</vplmnAddressAllowed>
+					<maxBandwidthUp>64000000</maxBandwidthUp>
+					<maxBandwidthDown>256000000</maxBandwidthDown>
+					<qos>91DE</qos>
+					<pdnChargingCharacteristics>
+						<chargingCharacteristics>prepaid</chargingCharacteristics>
+					</pdnChargingCharacteristics>
+				</valueObject>
+			</modification>
+			<modification operation="add" >
+				<valueObject xsi:type="ns2:EPSPdnContext">
+					<apn>MIWORLD</apn>
+					<contextId>2</contextId>
+					<type>both</type>
+					<pdnGwDynamicAllocation>true</pdnGwDynamicAllocation>
+					<vplmnAddressAllowed>false</vplmnAddressAllowed>
+					<maxBandwidthUp>64000000</maxBandwidthUp>
+					<maxBandwidthDown>256000000</maxBandwidthDown>
+					<qos>91DE</qos>
+					<pdnChargingCharacteristics>
+						<chargingCharacteristics>prepaid</chargingCharacteristics>
+					</pdnChargingCharacteristics>
+				</valueObject>
+			</modification>
+			<modification name="hlr" operation="addorset">
+				<valueObject xsi:type="ns2:HLR">
+					<epsRoamAreaName>LTEHPLMN</epsRoamAreaName>
+				</valueObject>
+			</modification>
+			<modification operation="addorset">
+				<valueObject xsi:type="ns2:HLR">
+					<epsPsRoamAreaMmeName>M1</epsPsRoamAreaMmeName>
+				</valueObject>
+			</modification>
+		</spml:modifyRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                <!DOCTYPE INUM SYSTEM "SiemensInumProvisioningReq.dtd">
+                <INUM>
+                <createSUB>
+                        <E164Number>6588186415</E164Number>
+                        <URIList><URIData><URIType><SIP/></URIType><URI>sip:+6588186415@ims.mnc003.mcc525.3gppnetwork.org</URI></URIData></URIList>
+
+                                <UpdateSerial><CONFIG/></UpdateSerial>
+                                </createSUB>
+                </INUM>

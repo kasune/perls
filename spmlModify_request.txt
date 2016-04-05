@@ -1,0 +1,24 @@
+2014-10-08 17:15:48,979 nds1pgwt01 instance3 soapUser DEFAULT <spml:modifyRequest language="en_us" requestID="-16fb6d97:148c0b3c3a1:-7e64" xmlns:spml="urn:siemens:na
+mes:prov:gw:SPML:2:0" xmlns:subscriber="urn:siemens:names:prov:gw:SUBSCRIBER:1:0">
+<version xmlns:nsr="urn:siemens:names:prov:gw:HLR_EPS_NSR:5:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">SUBSCRIBER_v10</version>
+<objectclass xmlns:nsr="urn:siemens:names:prov:gw:HLR_EPS_NSR:5:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">Subscriber</objectclass>
+<identifier alias="identifier" xmlns:nsr="urn:siemens:names:prov:gw:HLR_EPS_NSR:5:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="subscriber:Subsc
+riberIdentifier">95510e08-893a-49c9-9b33-1847dfa2</identifier>
+<modification name="hlr/caw" operation="add" scope="uniqueTypeMapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<valueObject xsi:type="subscriber:CAW">
+<basicServiceGroup>TS10-telephony</basicServiceGroup>
+<status>4</status>
+</valueObject>
+</modification>
+</spml:modifyRequest>
+2014-10-08 17:15:49,016 nds1pgwt01 instance3 soapUser DEFAULT <spml:modifyResponse executionTime="40" language="en_us" requestID="-16fb6d97:148c0b3c3a1:-7e64" result
+="success" xmlns:nsr="urn:siemens:names:prov:gw:HLR_EPS_NSR:5:0" xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0" xmlns:subscriber="urn:siemens:names:prov:gw:SUBSCRIB
+ER:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><version>SUBSCRIBER_v10</version><objectclass>Subscriber</objectclass><identifier alias="identifier">95
+510e08-893a-49c9-9b33-1847dfa2</identifier><modification name="hlr/caw" operation="add" scope="uniqueTypeMapping" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instanc
+e"><valueObject xmlns:ns2="urn:siemens:names:prov:gw:SUBSCRIBER:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:CAW"><basicServiceGroup>TS10
+-telephony</basicServiceGroup><status>4</status></valueObject></modification></spml:modifyResponse>
+
+
+525034747000000
+
+86914000

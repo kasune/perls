@@ -1,0 +1,16 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:siemens:names:prov:gw:SPML:2:0">
+   <soapenv:Header/>
+   <soapenv:Body>
+	<spml:searchRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  	     xmlns:subscriber="urn:siemens:names:prov:gw:SUBSCRIBER:1:0" 
+  	     xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0">
+         <version>SUBSCRIBER_v10</version>
+         <base>
+            <objectclass>Subscriber</objectclass>
+			<!--<alias name="msisdn" value="6596961213" /> --> 
+			 <alias name="imsi" value="525034375217101" /> 
+         </base>
+          <returnAttribute>hlr</returnAttribute>
+      </spml:searchRequest>
+   </soapenv:Body>
+</soapenv:Envelope>

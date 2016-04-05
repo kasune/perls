@@ -1,0 +1,7 @@
+  <soap:Body name="ns1:displayNaptrsResponse" xmlns:ns1="http://at.siemens.inum6/soap">
+    <result status="iNUMx0000:Request completed successfully">
+      <information>6.3.8.5.5.8.6.8.5.6.e164.arpa.,10 20 &quot;u&quot; &quot;E2U+sip&quot; &quot;!^(.*)$!sip:+6586855836@ims.mnc003.mcc525.3gppnetwork.org!&quot; .,1800,</information>
+      <information>6.3.8.5.5.8.6.8.5.6.e164.arpa.,200 50 &quot;u&quot; &quot;E2U+sip&quot; &quot;!^(.*)$!sip:+6586855836@ims.mnc003.mcc525.3gppnetwork.org!&quot; .,1800,</information>
+    </result>
+  </soap:Body>
+  <xmlns:soap>http://schemas.xmlsoap.org/soap/envelope/</xmlns:soap>

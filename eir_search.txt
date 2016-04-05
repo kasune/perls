@@ -1,0 +1,176 @@
+
+
+http://172.17.120.102:8081/ProvisioningGateway/services/SPMLEirNsr30Service
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:siemens:names:prov:gw:SPML:2:0">
+   <soapenv:Header/>
+   <soapenv:Body>
+	<spml:searchRequest
+		xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		newGenerated="true">
+		<version>EIR_NSR_v30</version>
+		<base>
+		<objectclass>Device</objectclass>
+		</base>
+		<filter>
+			<equalityMatch name="colour/colour">
+				<value>grey</value>
+			</equalityMatch>
+		</filter>
+		<returnAttribute>identifier</returnAttribute>
+		</spml:searchRequest>
+   </soapenv:Body>
+</soapenv:Envelope> 
+
+  <soapenv:Body name="spml:searchResponse" executionTime="139" requestID="-1150a707:149bd4c907c:-7caf" result="success" searchStatus="completeResult" version="EIR_NSR_v30" xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <objects identifier="01241700133887" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01215600738905" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35687601017402" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35396501001175" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35766801022335" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01216200678405" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="12162001453558" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35234403011117" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35948402958544" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35366001021995" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35435000042490" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35247904253910" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35485502882199" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35185101846481" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35146030136428" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="00440101158739" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35638702014154" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35446800068507" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35720500180065" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35681703296612" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01216400153644" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35316305411383" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35697301048581" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35155802154778" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35765901042706" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35419303621740" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35471601807212" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35154800023673" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01242800646917" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="98004100594693" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35394204021394" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35170801302309" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35972700785116" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01241800197873" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01171300578821" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="00440044168178" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35154600030395" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35251201353010" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35281902035422" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="24340512112368" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01202900208140" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="12424002848776" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35792600401581" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="00440102466243" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35522301999004" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35486000003435" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35395401066114" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01202900495988" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35077410051507" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35338800870724" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01242300189985" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35774602625651" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01216200932523" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35197904684051" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35540701581238" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35701204901778" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35792700006037" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35835301065077" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35978504487882" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01215700578312" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35435000042825" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35382601043866" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="44927620127354" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35366001020868" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35326301093465" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35069730228646" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01241800099539" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01203000399417" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35182701090288" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35954201170794" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35161704728148" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01242200040351" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01305100458405" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35185101307900" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35759806267614" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="00440001440189" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01241800765278" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01226700000323" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="00440014399503" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35626101937745" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35669100068312" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35268302534453" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35566400367684" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35806500000535" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35618102246919" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35326401009323" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35508801779186" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35842900307957" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01174200662475" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35637602066499" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="89650303980724" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="00440101345521" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01216200796113" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35725800456424" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35566400367583" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35446800068781" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35190360329506" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35503100446824" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35835300005736" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01226800555153" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35336200158524" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35725800303280" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35422503160209" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="01215700451157" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35566400026888" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35234800450673" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="35326301348644" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+    <objects identifier="24340512112364" xmlns:ns2="urn:siemens:names:prov:gw:EIR_NSR:1:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Device" />
+  </soapenv:Body>
+  <xmlns:soapenv>http://schemas.xmlsoap.org/soap/envelope/</xmlns:soapenv>
+  <xmlns:xsd>http://www.w3.org/2001/XMLSchema</xmlns:xsd>
+  <xmlns:xsi>http://www.w3.org/2001/XMLSchema-instance</xmlns:xsi>
+
+
+############################################################################################################################################################################################
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:siemens:names:prov:gw:SPML:2:0">
+   <soapenv:Header/>
+   <soapenv:Body>
+	<spml:searchRequest
+		xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0"
+		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		newGenerated="true">
+		   <version>EIR_NSR_v30</version>
+			<base>
+					<objectclass>Device</objectclass>
+					<alias name="identifier" value="013351009031677"/>
+			</base>
+        </spml:searchRequest>
+   </soapenv:Body>
+</soapenv:Envelope> 
+
+############################################################################################################################################################################################
+
+<!-- <soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:siemens:names:prov:gw:SPML:2:0">
+   <soapenv:Header/>
+   <soapenv:Body>
+	<spml:searchRequest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+  	     xmlns:subscriber="urn:siemens:names:prov:gw:SUBSCRIBER:1:0" 
+  	     xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0">
+         <version>SUBSCRIBER_v10</version>
+         <base>
+            <objectclass>Subscriber</objectclass>
+			<!--<alias name="msisdn" value="6596961213" /> --> 
+	<!--		 <alias name="msisdn" value="6586914000" /> 
+         </base>
+         <returnAttribute>hlr</returnAttribute>
+      </spml:searchRequest>
+   </soapenv:Body>
+</soapenv:Envelope> -->

@@ -1,0 +1,131 @@
+  <soapenv:Body name="spml:searchResponse" executionTime="116" requestID="2ec7e85c:148c0de8f31:-7fe5" result="success" searchStatus="completeResult" version="HLR_EPS_SUBSCRIBER_v50" xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0" xmlns:subscriber="urn:siemens:names:prov:gw:HLR_EPS_SUBSCRIBER:5:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <objects xmlns:ns2="urn:siemens:names:prov:gw:HLR_EPS_SUBSCRIBER:5:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Subscriber">
+      <auc imsi="525034747000001" />
+      <hlr actIMSIGprs="true" clip="true" clipOverride="false" colpOverride="false" isActiveIMSI="true" mobileSubscriberType="genericSubscriber" mscat="10" ndcLac="8" ntype="single" nwa="3" obGprs="0" odbgprs="0" odbic="0" odboc="0" odboprc="0" odbr="0" odbsci="0" odbssm="0" optimalRouting="true" sr="1" vlrid="true" wllSubscriber="false">
+        <arc redirInd="2" />
+        <bs20genr msisdn="6586914001" />
+        <bs30genr msisdn="6586914001" />
+        <bs40genr msisdn="6586914001" />
+        <cfb basicServiceGroup="TS10-telephony" status="4" />
+        <cfb basicServiceGroup="BS20-dataAsync" status="4" />
+        <cfb basicServiceGroup="BS30-dataSync" status="4" />
+        <cfb basicServiceGroup="BS40-padAccess" status="4" />
+        <cfnrc basicServiceGroup="TS10-telephony" status="4" />
+        <cfnrc basicServiceGroup="BS20-dataAsync" status="4" />
+        <cfnrc basicServiceGroup="BS30-dataSync" status="4" />
+        <cfnrc basicServiceGroup="BS40-padAccess" status="4" />
+        <cfnry basicServiceGroup="TS10-telephony" status="4" />
+        <cfnry basicServiceGroup="BS20-dataAsync" status="4" />
+        <cfnry basicServiceGroup="BS30-dataSync" status="4" />
+        <cfnry basicServiceGroup="BS40-padAccess" status="4" />
+        <cfu basicServiceGroup="TS10-telephony" status="4" />
+        <cfu basicServiceGroup="BS20-dataAsync" status="4" />
+        <cfu basicServiceGroup="BS30-dataSync" status="4" />
+        <cfu basicServiceGroup="BS40-padAccess" status="4" />
+        <csFallback mtrr="true" />
+        <gprs msisdn="6586914001" />
+        <msgWaitData mobileStationNotReachableFlag="false" msisdnUsedForAlertingOfSMSServiceCentre="6586914001" />
+        <pdpContext id="1" apn="SUNSURF" apnArea="HPLMN" qosProfile="PPU7200" type="2" />
+        <sgsnMobData gprsAllowed="true" gprsCsiSubst="0" gprsSmsCsiSubst="0" isdnNumberOfSGSN="6596845918" locUpdatePSTimestamp="2014-09-30T15:14:24.801+08:00" msPurged="false" plmnAllowed="true" roamingAreaAllowed="true" sgsnAddress="202.65.241.121" sgsnAreaRestRcvd="false" sgsnCamelNot="false" sgsnExtQos="true" sgsnIdValid="true" supportedCAMELPhaseBySGSN="4" supportedMAPVersionForLUP="3">
+          <featuresNotSupportedBySGSN>gprsCsi</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>mtSmsCsi</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>smsCsi</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>superCharger</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>mgCsi</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>extCamel</featuresNotSupportedBySGSN>
+        </sgsnMobData>
+        <sset operatorServiceName="42" state="2" />
+        <ts11 msisdn="6586914001" />
+        <ts21 msisdn="6586914001" />
+        <ts22 msisdn="6586914001" />
+        <umtsSubscriber accTypeGERAN="true" accTypeGSM="true" accTypeUTRAN="true" />
+        <vlrMobData bs20BarrByCb="0" bs30BarrByCb="0" bs40BarrByCb="0" isdnNumberOfVLR="6593659942" locUpdateCSTimestamp="2014-09-30T14:09:14.960+08:00" mobileTerminatingCallPossible="true" msPurged="false" mscAreaRestrictedReceived="false" mscNumber="6593659942" plmnAllowed="true" prohFtnoUpdInVlrFail="false" roamingAreaAllowed="true" ssetSubst="0" supportedCAMELPhaseByVLR="7" supportedLCSCapabilitySetsForVLR="1" supportedMAPVersionForLUP="3" ts10BarrByCb="0" ts20BarrByCb="0" ts60BarrByCb="0" vlrIdValid="true" vlrSupportsLongFtno="false">
+          <featuresNotSupportedByVLR>camelMCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>generalBearerService40</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>camelDCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>camelVTCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>oCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>superCharger</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>sSCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>camelMTSMSCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>camelSMSCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>extCamel</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>oICK</featuresNotSupportedByVLR>
+        </vlrMobData>
+      </hlr>
+    </objects>
+  </soapenv:Body>
+  <xmlns:soapenv>http://schemas.xmlsoap.org/soap/envelope/</xmlns:soapenv>
+  <xmlns:xsd>http://www.w3.org/2001/XMLSchema</xmlns:xsd>
+  <xmlns:xsi>http://www.w3.org/2001/XMLSchema-instance</xmlns:xsi>
+#######################################################################################################################
+
+  <soapenv:Body name="spml:searchResponse" executionTime="128" requestID="-6e960904:149078d51d5:-7ff9" result="success" searchStatus="completeResult" version="HLR_EPS_SUBSCRIBER_v50" xmlns:spml="urn:siemens:names:prov:gw:SPML:2:0" xmlns:subscriber="urn:siemens:names:prov:gw:HLR_EPS_SUBSCRIBER:5:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <objects xmlns:ns2="urn:siemens:names:prov:gw:HLR_EPS_SUBSCRIBER:5:0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ns2:Subscriber">
+      <auc imsi="525034747000000" />
+      <hlr actIMSIGprs="true" clip="true" clipOverride="false" colpOverride="false" ect="true" hold="true" imeisv="3522280507019401" isActiveIMSI="true" mobileSubscriberType="genericSubscriber" mscat="10" ndcLac="8" ntype="single" nwa="3" obGprs="0" odbgprs="0" odbic="0" odboc="0" odboprc="0" odbr="0" odbsci="0" odbssm="0" optimalRouting="true" sr="2" vlrid="true" wllSubscriber="false">
+        <arc redirInd="2" />
+        <bs20genr msisdn="6586914000" />
+        <bs30genr msisdn="6586914000" />
+        <bs40genr msisdn="6586914000" />
+        <bs61a msisdn="6586914000" />
+        <bs81a msisdn="6586914000" />
+        <caw basicServiceGroup="TS10-telephony" status="4" />
+        <caw basicServiceGroup="BS20-dataAsync" status="4" />
+        <caw basicServiceGroup="BS30-dataSync" status="4" />
+        <caw basicServiceGroup="BS40-padAccess" status="4" />
+        <cfb basicServiceGroup="TS10-telephony" status="4" />
+        <cfb basicServiceGroup="BS20-dataAsync" status="4" />
+        <cfb basicServiceGroup="BS30-dataSync" status="4" />
+        <cfb basicServiceGroup="BS40-padAccess" status="4" />
+        <cfnrc basicServiceGroup="TS10-telephony" status="4" />
+        <cfnrc basicServiceGroup="BS20-dataAsync" status="4" />
+        <cfnrc basicServiceGroup="BS30-dataSync" status="4" />
+        <cfnrc basicServiceGroup="BS40-padAccess" status="4" />
+        <cfnry basicServiceGroup="TS10-telephony" status="4" />
+        <cfnry basicServiceGroup="BS20-dataAsync" status="4" />
+        <cfnry basicServiceGroup="BS30-dataSync" status="4" />
+        <cfnry basicServiceGroup="BS40-padAccess" status="4" />
+        <cfu basicServiceGroup="TS10-telephony" notifyCallingSubscriber="false" status="4" />
+        <cfu basicServiceGroup="BS20-dataAsync" notifyCallingSubscriber="false" status="4" />
+        <cfu basicServiceGroup="BS30-dataSync" notifyCallingSubscriber="false" status="4" />
+        <cfu basicServiceGroup="BS40-padAccess" notifyCallingSubscriber="false" status="4" />
+        <eps defaultPdnContextId="1" locUpdateTimestamp="2014-10-01T11:22:50.214+08:00" maxBandwidthDown="300000000" maxBandwidthUp="300000000" mmeHostId="MMEC02.MMEGI8001.MME.EPC.MNC003.MCC525.3GPPNETWORK.ORG" mmeRealm="EPC.MNC003.MCC525.3GPPNETWORK.ORG" mmeUpdateSucceeded="true" msPurgedEps="true" plmnStatus="HPLMN" vplmnId="52503F">
+          <mmeSuppFeatures featuredList="00000000000000000000011000000111" featuredListId="00000000000000000000000000000001" />
+        </eps>
+        <epsPdnContext apn="SUNSURF" contextId="1" maxBandwidthDown="300000000" maxBandwidthUp="300000000" pdnGwDynamicAllocation="true" pdnGwIPv4="202.65.240.211" qos="91DE" type="ipv4" vplmnAddressAllowed="false" />
+        <gprs msisdn="6586914000" />
+        <msgWaitData mobileStationNotReachableFlag="false" msisdnUsedForAlertingOfSMSServiceCentre="6586914000" />
+        <pdpContext id="1" apn="SUNSURF" apnArea="HPLMN" qosProfile="PPU7200" type="2" />
+        <sgsnMobData gprsAllowed="true" gprsCsiSubst="0" gprsSmsCsiSubst="0" locUpdatePSTimestamp="2014-10-09T17:34:28.804+08:00" msPurged="false" plmnAllowed="false" roamingAreaAllowed="true" sgsnAreaRestRcvd="false" sgsnCamelNot="false" sgsnExtQos="true" sgsnIdValid="false" supportedCAMELPhaseBySGSN="4" supportedMAPVersionForLUP="3">
+          <featuresNotSupportedBySGSN>gprsCsi</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>mtSmsCsi</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>smsCsi</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>superCharger</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>mgCsi</featuresNotSupportedBySGSN>
+          <featuresNotSupportedBySGSN>extCamel</featuresNotSupportedBySGSN>
+        </sgsnMobData>
+        <ts11 msisdn="6586914000" />
+        <ts21 msisdn="6586914000" />
+        <ts22 msisdn="6586914000" />
+        <umtsSubscriber accTypeGERAN="true" accTypeGSM="true" accTypeUTRAN="true" />
+        <vlrMobData bs20BarrByCb="0" bs30BarrByCb="0" bs40BarrByCb="0" isdnNumberOfVLR="6596860014" locUpdateCSTimestamp="2014-10-09T15:31:51.056+08:00" mobileTerminatingCallPossible="true" msPurged="false" mscAreaRestrictedReceived="false" mscNumber="6596860014" plmnAllowed="true" prohFtnoUpdInVlrFail="false" roamingAreaAllowed="true" ssetSubst="0" supportedCAMELPhaseByVLR="7" supportedLCSCapabilitySetsForVLR="1" supportedMAPVersionForLUP="3" ts10BarrByCb="0" ts20BarrByCb="0" ts60BarrByCb="0" vlrIdValid="true" vlrSupportsLongFtno="false">
+          <featuresNotSupportedByVLR>camelMCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>generalBearerService40</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>camelDCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>camelVTCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>oCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>superCharger</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>sSCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>camelMTSMSCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>camelSMSCSI</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>autoCallRedir</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>extCamel</featuresNotSupportedByVLR>
+          <featuresNotSupportedByVLR>oICK</featuresNotSupportedByVLR>
+        </vlrMobData>
+      </hlr>
+    </objects>
+  </soapenv:Body>
+  <xmlns:soapenv>http://schemas.xmlsoap.org/soap/envelope/</xmlns:soapenv>
+  <xmlns:xsd>http://www.w3.org/2001/XMLSchema</xmlns:xsd>
+  <xmlns:xsi>http://www.w3.org/2001/XMLSchema-instance</xmlns:xsi>
